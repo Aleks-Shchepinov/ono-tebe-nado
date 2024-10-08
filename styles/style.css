@@ -1,1 +1,151 @@
-/* место для вашего кода */
+header, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 1100px;
+    height: 3028px;
+    top: -1514px;
+    left: -550px;
+    
+}
+
+.header {
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1052px;
+    height: 105px;
+    padding: 92px 24px 96px 24px;
+}
+
+nav {
+    
+}
+
+.header__menu {
+    width: 392px;
+    height: 22px;
+    top: 44px;
+    left: 26px;
+}
+
+.header__links-list {
+    display: flex;
+    font-size: 18px;
+}
+
+.header__links-list-item {
+    
+}
+
+.header__links-list-item_no-bullit{
+    list-style: none;
+}
+
+.header__link {
+    margin-left: 32px;
+    
+}
+
+.header-__link_active {
+    list-style: circle;
+}
+
+.header__logo {
+    display: block;
+    margin-left: 36px;
+    margin-right: 184px ;
+    width: 148px;
+    height: 105px;
+}
+
+.header__logo-image {
+    width: 100%;
+    height: 105px;
+}
+
+.address {
+    font-family: 'Raleway' sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.3px;
+    text-align: left;
+}
+
+.header__address {
+    margin-right: 25px;
+}
+
+.cover {
+    padding-top: 95px;
+    padding-bottom: 179px;
+    width: 1100px;
+    height: 757px;
+    top: 293px;
+    gap: 0px;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+
+}
+
+.cover__title {
+    width: 100%;
+    color: #fff;
+    font-family: "Raleway;" sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 0.3em;
+    text-align: left;
+}
+
+.aligned-text {
+    display: block;
+}
+
+.aligned-text_center {
+    display: block;
+    text-align: center;
+}
+
+.aligned-text_right {
+    display: block;
+    text-align: right;
+}
+
+.no-letter-spacing {
+
+}
+
+.cover__description {
+
+}
+
+.cover__description-text {
+
+}
+
+.bet-button {
+
+}
+
+.lots {
+    padding: 179px 24px 148px 24px;
+}
+
+.about {
+    padding: 148px 24px 180px 24px;
+}
+.footer {
+    padding: 180px 50px 88px 50px;
+}
