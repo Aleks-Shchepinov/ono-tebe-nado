@@ -33,11 +33,15 @@ img {
   width: 100%;
 }
 
-Address {
+address {
   font-style: normal;
   font-size: 0;
   margin: 0;
   padding: 0;
   border: 0;
   vertical-align: baseline;
+}
+
+a {
+  text-decoration: none;
 }
