@@ -27,6 +27,7 @@ blockquote {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img {
@@ -40,8 +41,4 @@ address {
   padding: 0;
   border: 0;
   vertical-align: baseline;
-}
-
-a {
-  text-decoration: none;
 }
