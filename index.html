@@ -14,13 +14,13 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">
-            главная
+            <a href="#" class="header__link"></a>главная
           </li>
-          <li class="header__links-list-item header__link header-__link_active">
-            <a href="#">посмотреть лоты </a>
+          <li class="header__links-list-item header-__link_active">
+            <a href="#" class="header__link">посмотреть лоты </a>
           </li>
-          <li class="header__links-list-item header__link header-__link_active">
-            <a href="#">об аукционе </a>
+          <li class="header__links-list-item header-__link_active">
+            <a href="#" class="header__link">об аукционе </a>
           </li>
         </ul>
       </nav>
@@ -31,13 +31,12 @@
           alt="Логотип. Оно тебе надо"
         />
       </a>
-      <address class="address">
-        <a href="tel:+99995555555" class="header__address">+9(999)555-55-55</a
+      <address class="address header__address">
+        <a href="tel:+99995555555" class="address__link">+9(999)555-55-55</a
         ><br />
-        <a href="mailto:info@sobaka.ge" class="header__address"
-          >info@sobaka.ge</a
+        <a href="mailto:info@sobaka.ge" class="address__link">info@sobaka.ge</a
         ><br />
-        <span>наб. Принсенграхт 263-<br />265, Амстердам</span>
+        <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
       </address>
     </header>
     <main>
@@ -118,7 +117,7 @@
         <a href="#" class="lots__look-more-link">посмотреть больше</a>
       </section>
       <section class="about">
-        <section class="about__column">
+        <div class="about__column">
           <div class="about__logo">
             <img
               class="about__logo-image"
@@ -126,9 +125,9 @@
               alt="Логотип. Оно тебе надо на черном фоне"
             />
           </div>
-        </section>
-        <section class="about__column">
-          <h4 class="about__title">Об аукционе</h4>
+        </div>
+        <div class="about__column">
+          <h2 class="about__title">Об аукционе</h2>
           <p class="about__text about__text_letter-spacing">
             Здесь вы не встретите очередное пафосное собрание невероятно
             дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
@@ -144,27 +143,28 @@
             представить современную культуру. Когда в эти вещи не верил никто,
             продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
-        </section>
+        </div>
       </section>
     </main>
     <footer class="footer">
       <address class="address">
-        <a href="tel:+99995555555" class="header__address">+9(999)555-55-55</a
+        <a href="tel:+99995555555" class="address__link">+9(999)555-55-55</a
         ><br />
-        <a href="mailto:info@sobaka.ge" class="header__address"
-          >info@sobaka.ge</a
+        <a href="mailto:info@sobaka.ge" class="address__link">info@sobaka.ge</a
         ><br />
-        <span>наб. Принсенграхт 263-<br />265, Амстердам</span>
+        <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item footer__menu-link_active">
-            главная
+            <a href="#">главная </a>
           </li>
           <li class="footer__menu-list-item footer__menu-link">
-            посмотреть лоты
+            <a href="#">посмотреть лоты </a>
           </li>
-          <li class="footer__menu-list-item footer__menu-link">об аукционе</li>
+          <li class="footer__menu-list-item footer__menu-link">
+            <a href="#">об аукционе </a>
+          </li>
         </ul>
       </nav>
       <div>
@@ -182,7 +182,7 @@
             <a href="#" class="footer__social-link">
               <img
                 src="./images/vk.svg"
-                alt="Кнопка перехода на наш ютуб"
+                alt="Кнопка перехода на наш ВК"
                 class="footer__social-icon"
               />
             </a>
@@ -191,7 +191,7 @@
             <a href="#" class="footer__social-link">
               <img
                 src="./images/pinterest.svg"
-                alt="Кнопка перехода на наш ютуб"
+                alt="Кнопка перехода на наш Пинтерест"
                 class="footer__social-icon"
               />
             </a>
